@@ -1,0 +1,19 @@
+{
+    "name": "user/ticket-twig",
+    "description": "A simple Twig project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "User\\TicketTwig\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "devZuzu",
+            "email": "zulaihamuhammadtiamiyu@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.21"
+    }
+}
