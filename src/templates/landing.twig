@@ -1,0 +1,50 @@
+{% extends 'base.twig' %}
+
+{% block content %}
+<header class="hero">
+  <div class="decor-circle decor-circle-large"></div>
+  <div class="decor-circle decor-circle-small"></div>
+  <h1>TicketFlow</h1>
+  <p>Effortlessly manage your support tickets across React, Vue.js, and Twig.</p>
+  <a href="/login"><button class="login">Login</button></a>
+  <a href="/signup"><button class="get-started">Get Started</button></a>
+  <div class="wave"></div>
+</header>
+
+<section class="features">
+  <h2>Key Features</h2>
+  <p>Discover the powerful features that make TicketFlow the best choice for managing your support tickets.</p>
+  <div class="grid">
+    <div class="box">
+      <span class="icon">📊</span>
+      <h3>Unified Dashboard</h3>
+      <p>See all your tickets in one place, regardless of frontend technology.</p>
+    </div>
+    <div class="box">
+      <span class="icon">🔗</span>
+      <h3>Seamless Integration</h3>
+      <p>Easy setup with your React, Vue.js, and Twig applications.</p>
+    </div>
+    <div class="box">
+      <span class="icon">📈</span>
+      <h3>Powerful Analytics</h3>
+      <p>Track and analyze support metrics to improve customer service.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="logo">TicketFlow</div>
+  <div class="links">
+    <a href="#">About</a>
+    <a href="#">Pricing</a>
+    <a href="#">Contact</a>
+  </div>
+  <div class="social">
+    <a href="#">Twitter</a>
+    <a href="#">Facebook</a>
+    <a href="#">LinkedIn</a>
+  </div>
+  <p>© 2025 TicketFlow. All rights reserved.</p>
+</footer>
+{% endblock %}
